@@ -18,10 +18,8 @@ try:
 except ValueError:
     sys.exit("Program stopped. Error: The input was not a number")
 
-try:
-    reverse = input("Reverse order? (y) (No by default)") == 'y'
-except ValueError:
-    sys.exit("Program stopped. Error: The input was not a number")
+reverse = input("Reverse order? (y) (No by default)") == 'y'
+
 
 
 if os.path.isdir(dir):
